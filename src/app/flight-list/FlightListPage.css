@@ -1,0 +1,17 @@
+.icon{
+    width: 30px;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+    width: 70%;
+    margin: 20px auto;
+}
+li{
+    padding: 15px;
+    border: 1px solid gray
+}
+.details{
+    display: inline-block;
+    width: 30%
+}

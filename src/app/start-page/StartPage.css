@@ -1,0 +1,49 @@
+.Cover{
+    background-image: url("../../shared/images/photo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Logo{
+    width: 35%;
+    margin: 150px auto 50px;
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    font-family: "Muli", sans-serif;
+    font-weight: 500;
+    margin: 5px
+}
+.btn{
+    margin: 40px 20px;
+    background-color: white;
+    width: 150px;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 2px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.decline{
+    color: #d30505
+}
+.decline-error{
+    color:  #d37509;
+    font-size: 1.2em
+}
+
+.icon{
+    width: 30px;
+}
