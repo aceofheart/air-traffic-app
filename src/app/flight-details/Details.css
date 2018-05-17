@@ -1,0 +1,96 @@
+.logo{
+    border-radius: 50%;
+    margin-right: 25px;
+    padding: 15px;
+    width:10%
+
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.code{
+    font-size: 1.7em
+}
+
+.plain{
+    width: 35%;
+   
+}
+.line{
+    width: 100%;
+    padding:20px;
+    margin-top: 20px;
+    box-sizing: border-box
+
+}
+
+.destination-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+}
+
+.destination{
+    padding: 30px;
+    font-size: 1.1em;
+    width: 30%;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2b2b;
+    color:white;
+    padding: 10px 30px;
+    font-family: "Ruda", sans-serif;
+}
+
+@media(max-width: 780px){
+    div.destination{
+        padding: 20px;
+        font-size: 1em
+    }
+    .info span{
+        font-size: 0.9em
+    }
+    .code{
+        font-size: 1em
+    }
+}
+
+@media(max-width: 600px){
+    div.destination{
+        padding: 20px;
+        font-size: 0.7em
+    }
+  
+    .info{
+        padding:7px;
+    }
+    .info span{
+        font-size: 0.7em;
+        padding: 5px
+    }
+    .code{
+        font-size: 0.8em
+    }
+    .logo{
+        width: 20%;
+        margin: 10px
+    }
+    .modal{
+       padding:20px;
+    }
+    .plain{
+        width: 28%
+    }
+}

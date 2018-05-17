@@ -10,7 +10,6 @@ class App extends Component {
     return (
       <Fragment>
         <Switch>
-          {/* <Route exact path="/flights/:id" component={FligthDetailPage} /> */}
           <Route exact path="/flights" component={FlightListPage} />
           <Route exact path="/" component={StartPage} />
         </Switch>
